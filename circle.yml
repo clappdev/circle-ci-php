@@ -1,2 +1,22 @@
 general:
   build_dir: src
+
+machine:
+  environment:
+    APP_ENV: local
+    APP_KEY: base64:/TldazXBjsRBCxmfL7zaNZs7a8nvw41gk7dR1tV+qPY=
+    APP_DEBUG: true
+    APP_LOG_LEVEL: debug
+    APP_URL: http://localhost
+
+    DB_CONNECTION: mysql
+    DB_HOST: 127.0.0.1
+    DB_PORT: 3306
+    DB_DATABASE: homestead
+    DB_USERNAME: homestead
+    DB_PASSWORD: secret
+
+    BROADCAST_DRIVER: log
+    CACHE_DRIVER: file
+    SESSION_DRIVER: file
+    QUEUE_DRIVER: sync
