@@ -23,4 +23,4 @@ machine:
 
 dependencies:
   post:
-    php artisan migrate --force --seed
+    - php artisan migrate --force --seed
